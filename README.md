@@ -1,4 +1,4 @@
-# Challenge_19_fintech_finder
+# Fintech Finder
 This is a Python file that Integrates with the Ethereum Blockchain network into python application and runs the application using Streamlit to hire and pay fintech professionals with cryptocurrency.
 
 ---
