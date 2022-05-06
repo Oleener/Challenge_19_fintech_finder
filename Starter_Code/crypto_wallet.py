@@ -1,4 +1,8 @@
-# imports
+# Cryptocurrency Wallet
+################################################################################
+# This file contains the Ethereum transaction functions that you have created throughout this module’s lessons. By using import statements, you will integrate this `crypto_wallet.py` Python script into the Fintech Finder interface program that is found in the `fintech_finder.py` file.
+################################################################################
+# Imports
 import os
 import requests
 from dotenv import load_dotenv
@@ -13,6 +17,7 @@ from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 def generate_account():
     """Create a digital wallet and Ethereum account from a mnemonic seed phrase."""
+
     # Fetch mnemonic from environment variable.
     mnemonic = os.getenv("MNEMONIC")
 
@@ -29,6 +34,7 @@ def generate_account():
 
 def get_balance(w3, address):
     """Using an Ethereum account address access the balance of Ether"""
+
     # Get balance of address in Wei
     wei_balance = w3.eth.get_balance(address)
 
@@ -37,7 +43,6 @@ def get_balance(w3, address):
 
     # Return the value in ether
     return ether
-
 
 def send_transaction(w3, account, to, wage):
     """Send an authorized transaction to the Ganache blockchain."""
