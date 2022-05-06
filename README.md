@@ -40,10 +40,10 @@ streamlit should open automatically in a browser. If it does not, please follow 
 ## Streamlit testing
 
 Ganache accounts tab:
-![image]()
+![image](https://github.com/Oleener/Challenge_19_fintech_finder/blob/main/Directions/1.png)
 
 Ganache transactions tab:
-![image]()
+![image](https://github.com/Oleener/Challenge_19_fintech_finder/blob/main/Directions/2.png)
 
 ---
 
